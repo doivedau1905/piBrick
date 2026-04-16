@@ -37,7 +37,7 @@ curl -sSL https://raw.githubusercontent.com/doivedau1905/piBrick/main/get.sh | s
 | Version | 3.92inch | 5.48inch |
 |---------|----------|----------|
 | v1      | ✓        | ✓        |
-| v2      | ✓        | ✓        |
+| v2      | ✓        |          |
 
 ## GitHub Releases structure
 
