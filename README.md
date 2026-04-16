@@ -61,5 +61,4 @@ pibrick_5.48inch.zip
    ```bash
    cd /boot/firmware/pibrick
    sudo bash ./install.sh
-   ```
-"# piBrick" 
+   ``` 

@@ -3,7 +3,7 @@
 # Check and install curl if not available
 if ! command -v curl &>/dev/null; then
     echo "curl not found. Installing..."
-    apt-get update -qq && apt-get install -y curl
+    sudo apt-get update -qq && sudo apt-get install -y curl
     if ! command -v curl &>/dev/null; then
         echo "Failed to install curl. Please install it manually and retry."
         exit 1
@@ -13,7 +13,7 @@ fi
 # Check and install unzip if not available
 if ! command -v unzip &>/dev/null; then
     echo "unzip not found. Installing..."
-    apt-get update -qq && apt-get install -y unzip
+    sudo apt-get update -qq && sudo apt-get install -y unzip
     if ! command -v unzip &>/dev/null; then
         echo "Failed to install unzip. Please install it manually and retry."
         exit 1
@@ -65,6 +65,6 @@ unzip -q "$TMP/$FILENAME" -d "$TMP/pibrick"
 
 echo "Installing..."
 cd "$TMP/pibrick"
-bash ./install.sh
+sudo bash ./install.sh
 
 rm -rf "$TMP"
