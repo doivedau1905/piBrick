@@ -1,5 +1,16 @@
 # piBrick Driver
 
+## Credits
+
+Created by **amarullz**
+
+🛟 Discord: https://discord.gg/e9qUdJ4aVr
+🤖 GitHub: https://github.com/amarullz/
+🤖 piBrick GitHub: https://github.com/amarullz/piBrick
+🔬 OSHWLab: https://oshwlab.com/amarullz/pibrick-pocketcm5
+📺 YouTube: https://www.youtube.com/@amarullz
+💝 Donation: https://paypal.me/amarullz
+
 ## Install
 
 **Interactive (will prompt for screen size):**
